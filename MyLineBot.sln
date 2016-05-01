@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLineBot", "MyLineBot\MyLineBot.csproj", "{2550F620-2180-4B2F-B869-5E47BA3C2E41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{2E3120B5-57CE-49E5-B100-B87379B3AA85}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{71CE7DFB-DFF0-4021-A9B8-2B0ABB5EE601}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\MyLineBot-WAWS-dev.json = PublishScripts\Configurations\MyLineBot-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2550F620-2180-4B2F-B869-5E47BA3C2E41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2550F620-2180-4B2F-B869-5E47BA3C2E41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2550F620-2180-4B2F-B869-5E47BA3C2E41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2550F620-2180-4B2F-B869-5E47BA3C2E41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{71CE7DFB-DFF0-4021-A9B8-2B0ABB5EE601} = {2E3120B5-57CE-49E5-B100-B87379B3AA85}
+	EndGlobalSection
+EndGlobal
